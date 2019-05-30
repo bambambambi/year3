@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p>This page has been visited 
+		<!--#exec cmd="/usr/lib/cgi-bin/scounter.cgi"--> times
+	</p>
+</body>
+</html>

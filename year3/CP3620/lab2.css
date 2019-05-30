@@ -1,0 +1,110 @@
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+ /* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #003366;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Arial", Arial, serif;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  font-family: arial, sans-serif;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+	font-family: "Arial", Arial, serif;
+	color: #003366;
+}
+h2 {
+	font-family: "Arial", Arial, serif;
+	text-align: center;
+}  
+p {
+	font-family: "Arial", Arial, serif;
+}
+img {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+a {
+	font-family: "Arial", Arial, serif;
+	color: red;
+}    
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+input {
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #003366;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ input[type=text] {
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
